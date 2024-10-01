@@ -1,7 +1,11 @@
 main, nav {
-    max-width: 800px;
+    display: flex;
     margin: 0 auto;
     padding: 0 12px;
+}
+
+nav {
+    display: flex;
 }
 
 header, footer {
@@ -20,10 +24,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-nav {
-    display: flex;
 }
 
 logo, link {
@@ -45,14 +45,13 @@ footer {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 0 10px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .box-1 {
     background-color: whitesmoke;
+    min-height: 100vh;
     order: 1;
     align-items: stretch;
 }
