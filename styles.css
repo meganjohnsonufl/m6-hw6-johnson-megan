@@ -4,38 +4,43 @@ main, nav {
     padding: 0 12px;
 }
 
-nav {
-    display: flex;
-}
-
 header, footer {
     background-color: white;
     padding: 24px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    border-bottom: 4px black;
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: f2f2f2;
     background-image: url(images/topography.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-logo, link {
-    color: black;
-}
-
 .logo {
-    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+
 }
 
 .link {
+    color: black;
+    text-decoration: none;
     margin: 0 4px;
+    font-size: 20px;
+    margin-right: auto;
+
 }
 
 footer {
@@ -47,6 +52,18 @@ footer {
     display: flex;
     max-width: 900px;
     margin: 0 auto;
+    align-items: flex-start;
+}
+
+.container, nav {
+    max-width: 900px;
+    padding: 0 12px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .box-1 {
@@ -54,9 +71,11 @@ footer {
     min-height: 100vh;
     order: 1;
     align-items: stretch;
+    padding: 0 12px;
 }
 
 .box-2 {
     background-color: whitesmoke;
     order: 2;
+    padding: 0 12px 12px;
 }
