@@ -66,6 +66,7 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .container, nav {
@@ -82,7 +83,7 @@ nav {
 
 .box-1 {
     background-color: whitesmoke;
-    min-height: 100vh;
+    width: 70%;
     align-items: stretch;
     padding: 0 12px;
     border: 1px solid black;
@@ -95,14 +96,13 @@ nav {
 
 .box-2 {
     background-color: whitesmoke;
-    padding: 0 12px 12px;
+    width: 100%;
+    padding: 10px 10px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .headshot {
