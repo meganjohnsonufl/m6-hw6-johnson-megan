@@ -1,4 +1,4 @@
-# Assignment 5 #
+# Assignment 6 #
 
 ## Stumbling Blocks ##
-I really struggled towards the end of the assignment also. Primarily I have had trouble trying to get the sections to align in the center (vertical align) since making the sidebar. Somehow it broke the code and the margin coding in the CSS for the two classes (content and maincontent) isn't aligning it to the center.
+I struggled tremendously through the entire assignment. This is handed in late, with permission, due to struggling and having many questions along the way. The CSS flexbox properties did not work in my favor so much of the time and it took until now to really understand why. I feel like I have better understanding now than I did of CSS flexbox, but also feel there's still a bit of mystery behind it to me.
